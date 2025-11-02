@@ -41,7 +41,7 @@ def list_dir(dir_name):
 
 def main():
     create_dir(CATS_DIR)
-    for _ in range(100):
+    for _ in range(2):
         download_new_cat_image()
 
 
